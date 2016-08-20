@@ -1,0 +1,12 @@
+* Readme
+
+This is a presentation timer for long (45mins) and short talks (15mins). It is made to work on a small screen like a pocket chip computer which has the screen 800x480.
+
+This project is made to work off line.
+
+1. Clone this repository
+
+2. Start a server in the directory
+  : ruby -run -ehttpd . -p8000
+
+3. Enjoy

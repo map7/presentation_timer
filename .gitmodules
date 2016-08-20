@@ -1,0 +1,3 @@
+[submodule "pietimer"]
+	path = pietimer
+	url = https://github.com/knorthfield/pietimer.git
