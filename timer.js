@@ -3,11 +3,12 @@ $(function(){
 	  // Long talk
 		$('a#start').click(function(){
 			  $('.finish').hide();
+        $('.heading').hide();
 		    $('#timer').pietimer({
 			      seconds: 20,          // 45mins = 2700seconds
 			      color: 'rgba(0, 0, 200, 0.8)',
-			      height: 380,
-			      width: 380,
+			      height: 200,
+			      width: 200,
 				    is_reversed: true
 		    },
 		                         function(){
@@ -20,11 +21,12 @@ $(function(){
     // Short talks
 		$('a#start_short').click(function(){
 			  $('.finish').hide();
+        $('.heading').hide();
 		    $('#timer').pietimer({
 			      seconds: 2,          // 15mins = 900seconds
 			      color: 'rgba(0, 200, 0, 0.8)',
-			      height: 380,
-			      width: 380,
+			      height: 200,
+			      width: 200,
 				    is_reversed: true
 		    },
 		                         function(){

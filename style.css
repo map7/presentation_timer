@@ -3,20 +3,22 @@ body{
 }
 
 /* Main timer screen */
+.heading{position: absolute;}
 .timer{
-    height: 380px;
+    height: 160px;
+    padding-left: 120px;
     padding-bottom: 40px;
 }
 .btn {
     text-decoration: none;
     background: black;
     color: white;
-    font-size: 18pt;
+    font-size: 16pt;
     font-weight: bold;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 
 
@@ -32,7 +34,7 @@ body{
     text-align: center;
     background: red;
 }
-.finish-text {padding-top: 220px;}
+.finish-text {padding-top: 90px;}
 
 /* Bring the blink back to life :) */
 blink{
