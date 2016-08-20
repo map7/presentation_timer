@@ -25,9 +25,22 @@ body{
     padding-bottom: 7px;
 }
 
+/* Pause screen */
+.pause-screen{
+    position: absolute;
+    display: none;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    font-size: 40pt;
+    text-align: center;
+    background: orange;
+}
+.pause-text {padding-top: 90px;}
 
-/* Finish screen */
-.finish{
+/* Finish-Screen screen */
+.finish-screen{
     position: absolute;
     display: none;
     top:0;

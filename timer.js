@@ -2,7 +2,7 @@ $(function(){
     is_paused = false;
 
     talk = function(duration, red, green, blue){
-			  $('.finish').hide();
+			  $('.finish-screen').hide();
         $('.heading').hide();
 		    $('#timer').pietimer({
 			      seconds: duration,          // 45mins = 2700seconds
@@ -12,7 +12,7 @@ $(function(){
 				    is_reversed: true
 		    },
 		                         function(){
-			                           $('.finish').show('slow');
+			                           $('.finish-screen').show('slow');
 		                         });
 			  $('#timer').pietimer('start');
     }
@@ -32,9 +32,11 @@ $(function(){
     // Both
 		$('a#pause').click(function(){
         if(is_paused){
+            $('.pause-screen').hide();
 			      $('#timer').pietimer('start');
             is_paused = false;
         }else{
+            $('.pause-screen').show();
 			      $('#timer').pietimer('pause');
             is_paused = true;
         }
