@@ -19,13 +19,13 @@ $(function(){
     
 	  // Long talk
 		$('a#start').click(function(){
-        talk(200, 0, 0, 200);
+        talk(2700, 0, 0, 200);
 			  return false;
 		});
 
     // Short talks
 		$('a#start_short').click(function(){
-        talk(1, 0, 200, 0);
+        talk(900, 0, 200, 0);
 			  return false;
 		});
 

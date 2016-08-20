@@ -5,8 +5,14 @@ This is a presentation timer for long (45mins) and short talks (15mins). It is m
 This project is made to work off line.
 
 1. Clone this repository
+   : git clone https://github.com/map7/presentation_timer.git
 
-2. Start a server in the directory
-  : ruby -run -ehttpd . -p8000
+2. Install submodules
+   : cd presentation_timer
+   : git submodule init
+   : git submodule update
 
-3. Enjoy
+3. Start a server in the directory
+   : ruby -run -ehttpd . -p8000
+
+4. Enjoy
