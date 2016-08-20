@@ -1,7 +1,6 @@
 $(function(){
 
-	  // Long talk
-		$('a#start').click(function(){
+    talk = function(){
 			  $('.finish').hide();
         $('.heading').hide();
 		    $('#timer').pietimer({
@@ -15,6 +14,11 @@ $(function(){
 			                           $('.finish').show('slow');
 		                         });
 			  $('#timer').pietimer('start');
+    }
+    
+	  // Long talk
+		$('a#start').click(function(){
+        talk();
 			  return false;
 		});
 

@@ -3,7 +3,11 @@ body{
 }
 
 /* Main timer screen */
-.heading{position: absolute;}
+.heading{
+    position: absolute;
+    top: 80px;
+    font-size: 35pt;
+}
 .timer{
     height: 160px;
     padding-left: 120px;
