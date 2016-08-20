@@ -1,0 +1,59 @@
+body{
+    font-family: Helvetica;
+}
+
+/* Main timer screen */
+.timer{
+    height: 380px;
+    padding-bottom: 40px;
+}
+.btn {
+    text-decoration: none;
+    background: black;
+    color: white;
+    font-size: 22pt;
+    font-weight: bold;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+/* Finish screen */
+.finish{
+    position: absolute;
+    display: none;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    font-size: 40pt;
+    text-align: center;
+    background: red;
+}
+.finish-text {padding-top: 220px;}
+
+/* Bring the blink back to life :) */
+blink{
+    animation:1s blinker linear infinite;
+    -webkit-animation:1s blinker linear infinite;
+    -moz-animation:1s blinker linear infinite;
+}
+@-moz-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
