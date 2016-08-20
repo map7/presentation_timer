@@ -1,27 +1,52 @@
 $(function(){
-	  
-		$('#timer').pietimer({
-			  seconds: 2,          // 45mins = 2700seconds
-			  color: 'rgba(0, 0, 0, 0.8)',
-			  height: 400,
-			  width: 400,
-				is_reversed: true
-		},
-		                     function(){
-			                      $('.finish').show('slow');
-		                    });
-		
+
+	  // Long talk
 		$('a#start').click(function(){
 			  $('.finish').hide();
+		    $('#timer').pietimer({
+			      seconds: 20,          // 45mins = 2700seconds
+			      color: 'rgba(0, 0, 200, 0.8)',
+			      height: 380,
+			      width: 380,
+				    is_reversed: true
+		    },
+		                         function(){
+			                           $('.finish').show('slow');
+		                         });
 			  $('#timer').pietimer('start');
 			  return false;
 		});
+
+    // Short talks
+		$('a#start_short').click(function(){
+			  $('.finish').hide();
+		    $('#timer').pietimer({
+			      seconds: 2,          // 15mins = 900seconds
+			      color: 'rgba(0, 200, 0, 0.8)',
+			      height: 380,
+			      width: 380,
+				    is_reversed: true
+		    },
+		                         function(){
+			                           $('.finish').show('slow');
+		                         });
+			  $('#timer').pietimer('start');
+			  return false;
+		});
+
+    // Both
 		$('a#pause').click(function(){
 			  $('#timer').pietimer('pause');
 			  return false;
 		});
+
+		$('a#stop').click(function(){
+			  $('#timer').hide();
+			  return false;
+		});
+
     $('a#restart').click(function(){
-        $('.finish').hide();
+        location.reload()
         return false;
     })
 		
