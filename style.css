@@ -1,5 +1,6 @@
 body{
     font-family: Helvetica;
+    background: wheat;
 }
 
 /* Main timer screen */
@@ -35,7 +36,7 @@ body{
     width: 100%;
     font-size: 40pt;
     text-align: center;
-    background: orange;
+    background: goldenrod;
 }
 .pause-text {padding-top: 90px;}
 
@@ -49,7 +50,7 @@ body{
     width: 100%;
     font-size: 40pt;
     text-align: center;
-    background: red;
+    background: firebrick;
 }
 .finish-text {padding-top: 90px;}
 
