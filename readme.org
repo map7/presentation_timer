@@ -23,6 +23,10 @@ This project is made to work off line.
  2. Enjoy
 
 ** Future
+   :PROPERTIES:
+   :CREATED:  [2016-08-21 Sun 16:45]
+   :END:
 
 - [ ] Add intro screen
 - [ ] Command with shortcut keys
+- [ ] Allow changing of talk length and save in browser local store.
